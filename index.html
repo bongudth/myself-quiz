@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +9,18 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
-  <div class="quiz-container">
-    <h2>Question text</h2>
+  <div class="quiz-container" id="quiz">
+    <h2 id="question"></h2>
     <ul>
-      <li><input type="radio" id="a" name="answer"><label for="a"></label></li>
-      <li><input type="radio" id="b" name="answer"><label for="b"></label></li>
-      <li><input type="radio" id="c" name="answer"><label for="c"></label></li>
-      <li><input type="radio" id="d" name="answer"><label for="d"></label></li>
+      <li><input type="radio" id="a" name="answer" class="answer"><label id="answer_a" for="a"></label></li>
+      <li><input type="radio" id="b" name="answer" class="answer"><label id="answer_b" for="b"></label></li>
+      <li><input type="radio" id="c" name="answer" class="answer"><label id="answer_c" for="c"></label></li>
+      <li><input type="radio" id="d" name="answer" class="answer"><label id="answer_d" for="d"></label></li>
     </ul>
-    <button>Submit</button>
+    <button id="submit">Submit</button>
   </div>
 </body>
+
 </html>
